@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grocery List Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Grocery List Manager</h1>
+    <input type="text" id="itemInput" placeholder="Add new item">
+    <button onclick="addItem()">Add</button>
+    
+    <h2>Items to Purchase</h2>
+    <ul id="shoppingList">
+    </ul>
+    
+    <h2>Purchased Items</h2>
+    <ul id="purchasedList">
+        </ul>
+    
+    
+    <p>View: <a href="#" onclick="showRemainingItems()">Items to Purchase</a> | <a href="#" onclick="showPurchasedItems()">Purchased Items</a></p>
+</body>
+</html>
